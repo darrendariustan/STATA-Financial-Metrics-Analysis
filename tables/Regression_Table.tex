@@ -1,0 +1,61 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Regression Table for Interactions of log\_xrd, log\_at, de\_ratio, and curr\_ratio}
+\begin{tabular}{l*{5}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}\\
+                    &\multicolumn{1}{c}{NPM}&\multicolumn{1}{c}{OPMAD}&\multicolumn{1}{c}{GPM}&\multicolumn{1}{c}{ROA}&\multicolumn{1}{c}{ROE}\\
+\hline
+Logged R&D Expenditures&       7.695\sym{**} &       7.497\sym{**} &      -0.158         &     -0.0336         &      -1.371         \\
+                    &     (3.878)         &     (3.476)         &     (0.180)         &     (0.121)         &     (2.291)         \\
+[1em]
+Logged Total Assets &       18.07\sym{*}  &       16.07\sym{*}  &      -0.155         &       0.600\sym{*}  &       4.336         \\
+                    &     (10.36)         &     (9.399)         &     (0.562)         &     (0.320)         &     (6.766)         \\
+[1em]
+Logged R&D Expenditures $\times$ Logged Total Assets&      -2.975\sym{*}  &      -2.690\sym{*}  &      0.0462         &     -0.0633         &      -0.472         \\
+                    &     (1.680)         &     (1.519)         &    (0.0876)         &    (0.0508)         &     (1.077)         \\
+[1em]
+Total Debt/Equity   &       49.19\sym{**} &       40.72\sym{**} &      -0.403         &       0.149         &      -1.368         \\
+                    &     (19.97)         &     (17.68)         &     (0.856)         &     (0.529)         &     (10.05)         \\
+[1em]
+Logged R&D Expenditures $\times$ Total Debt/Equity&      -9.504\sym{**} &      -8.718\sym{**} &     -0.0977         &      -0.118         &      -2.054         \\
+                    &     (4.314)         &     (3.847)         &     (0.213)         &     (0.142)         &     (2.738)         \\
+[1em]
+Logged Total Assets $\times$ Total Debt/Equity&      -7.365\sym{**} &      -6.259\sym{**} &      0.0302         &      -0.101         &      -0.541         \\
+                    &     (3.295)         &     (2.924)         &     (0.154)         &    (0.0888)         &     (1.882)         \\
+[1em]
+Logged R&D Expenditures $\times$ Logged Total Assets $\times$ Total Debt/Equity&       1.403\sym{**} &       1.271\sym{**} &      0.0107         &      0.0270         &       0.320         \\
+                    &     (0.669)         &     (0.596)         &    (0.0320)         &    (0.0201)         &     (0.422)         \\
+[1em]
+Current Ratio       &       9.475\sym{*}  &       6.773         &      -0.581\sym{*}  &      0.0592         &       0.490         \\
+                    &     (5.559)         &     (5.097)         &     (0.316)         &     (0.185)         &     (3.951)         \\
+[1em]
+Logged R&D Expenditures $\times$ Current Ratio&      -1.138         &      -1.699\sym{**} &      0.0781\sym{*}  &      0.0419         &       1.022\sym{**} \\
+                    &     (0.802)         &     (0.723)         &    (0.0397)         &    (0.0325)         &     (0.491)         \\
+[1em]
+Logged Total Assets $\times$ Current Ratio&      -2.708         &      -1.681         &       0.183\sym{*}  &     -0.0214         &      -0.457         \\
+                    &     (1.734)         &     (1.614)         &     (0.105)         &    (0.0613)         &     (1.301)         \\
+[1em]
+Logged R&D Expenditures $\times$ Logged Total Assets $\times$ Current Ratio&       0.458\sym{*}  &       0.348         &     -0.0328\sym{**} &    -0.00196         &    -0.00821         \\
+                    &     (0.272)         &     (0.250)         &    (0.0152)         &   (0.00919)         &     (0.192)         \\
+[1em]
+Total Debt/Equity $\times$ Current Ratio&      -19.52\sym{**} &      -16.53\sym{**} &      0.0268         &      -0.192         &      -0.751         \\
+                    &     (7.987)         &     (7.049)         &     (0.342)         &     (0.206)         &     (4.022)         \\
+[1em]
+Logged R&D Expenditures $\times$ Total Debt/Equity $\times$ Current Ratio&       3.749\sym{**} &       3.850\sym{**} &      0.0827         &      0.0963\sym{*}  &       1.121         \\
+                    &     (1.723)         &     (1.533)         &    (0.0756)         &    (0.0524)         &     (0.897)         \\
+[1em]
+Logged Total Assets $\times$ Total Debt/Equity $\times$ Current Ratio&       3.323\sym{**} &       2.789\sym{**} &    0.000177         &      0.0548         &       0.291         \\
+                    &     (1.510)         &     (1.349)         &    (0.0716)         &    (0.0434)         &     (0.895)         \\
+[1em]
+Logged R&D Expenditures $\times$ Logged Total Assets $\times$ Total Debt/Equity $\times$ Current Ratio&      -0.631\sym{**} &      -0.591\sym{**} &    -0.00838         &     -0.0155\sym{*}  &      -0.148         \\
+                    &     (0.293)         &     (0.260)         &    (0.0133)         &   (0.00825)         &     (0.168)         \\
+\hline
+N                   &         232         &         232         &         232         &         232         &         232         \\
+RMSE                &       3.707         &       3.147         &       0.109         &      0.0861         &       0.780         \\
+Robust SE           &         yes         &         yes         &         yes         &         yes         &         yes         \\
+\hline\hline
+\multicolumn{6}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{6}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+\end{table}

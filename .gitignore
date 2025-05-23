@@ -1,0 +1,22 @@
+# STATA temporary files
+*.dta
+*.gph
+*.smcl
+*.stpr
+*.ster
+*.log
+
+# Large data files (add specific paths if needed)
+data/*
+!data/README.md
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Temporary directories from your project
+tempfiles/
+tempkeep/
+
+# Keep empty directories with .gitkeep
+!**/.gitkeep
